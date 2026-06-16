@@ -1,4 +1,4 @@
-file = open("students.txt", "w")
+file = open("../students.txt", "w")
 
 file.write("Ashish\n")
 file.write("Rahul\n")
@@ -8,7 +8,7 @@ file.write("Kiran\n")
 
 file.close()
 
-file = open("students.txt", "r")
+file = open("../students.txt", "r")
 
 print("Student Names:")
 names = file.readlines()
